@@ -1,1 +1,6 @@
-configserver: true 
+
+com:
+  pathohub:
+    spring:
+      message:
+        name: prathap
