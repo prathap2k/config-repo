@@ -1,0 +1,18 @@
+server:
+  port: 9990
+
+management:
+  context-path: /admin
+
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/spring-cloud-samples/config-repo
+          basedir: target/config
+
+---
+spring:
+  profiles: cloud
